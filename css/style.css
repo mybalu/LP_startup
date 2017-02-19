@@ -1,1 +1,68 @@
 /*LP_StarUp*/
+body{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.bg-1{
+	background: url(../img/bg-1.jpg) 100%;
+}
+/*.bg-2{
+	background: url(../img/bg-2.jpg);
+}*/
+.hello{
+	margin: 0 auto;
+	max-width: 1140px;
+	padding-top: 36px;
+	color: #fff;
+	height: 730px;
+}
+.header__text-logo{
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0 0 0 7px;
+}
+.header__navigation{
+	float: right;
+	padding: 5px 0 0 0;
+}
+.header__navigation a{
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 15px;
+}
+.header__navigation a:last-child{
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.header__navigation a:hover{
+	text-decoration: underline;
+}
+.header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.wellcome{
+	margin-top: 260px;
+	text-align: center;
+}
+.wellcome__h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.welcome__subtitle{
+	font-size: 20px;
+	font-weight: 300;
+}
+.welcome__button{
+	display: block;
+	width: 145px;
+	margin: 50px auto 0px;
+	padding: 15px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #fff;
+}
