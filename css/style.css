@@ -1,6 +1,8 @@
 /*LP_StarUp*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=cyrillic,cyrillic-ext);
 body{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 .bg-1{
 	background: url(../img/bg-1.jpg) 100%;
@@ -64,25 +66,25 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
-.advantages{
+.advantages, .about-us{
 	margin: 0 auto;
 	max-width: 1140px;
 	color: #555555;
 	border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-.advantages__h1{
+.advantages__h1, .about-us__h1{
 	text-align: center;
 	margin: 100px auto 29px;
 	text-transform: uppercase;
 	font-size: 20px;
 }
-.advantages__hr{
+.advantages__hr, .about-us__hr{
 	width: 50px;
 	margin-bottom: 28px;
 }
-.advantages__subtitle{
+.advantages__subtitle, .about-us__subtitle{
 	text-align: center;
-	font-family: 'Roboto Slab';
+	font-family: Roboto Slab;
 	font-size: 16px;
 }
 .here-advantages{
@@ -136,15 +138,140 @@ body{
 	max-width: 345px;
 }
 .here-advantages__h3{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	margin: 30px auto 20px;
 }
 .here-advantages__text{
-	font-family: 'Roboto Slab';
+	font-family: Roboto Slab;
 	font-size: 14px;
 }
 .bg-2{
 	background: #f8f8f8;
+	border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.about-us__articles{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+}
+.about-us__article{
+	display: flex;
+	font-family: Roboto Slab;
+	font-size: 14px;
+	line-height: 1.714;
+	margin-top: 70px;
+	max-width: 525px; /*555*/
+}
+.our-team{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+.developer{
+	text-align: center;
+	position: relative;
+}
+.developer__photo{
+	width: 263px;
+	height: 250px;
+	margin: 0 auto 20px;
+}
+.developer__photo_Uddin{
+	background: url(../img/md-khalil-uddin.png);
+}
+.developer__photo_Miah{
+	background: url(../img/rubel-miah.png);
+}
+.developer__photo_Mia{
+	background: url(../img/shamim-mia.png);
+}
+.developer__photo_Doe{
+	background: url(../img/jonh-doe.png);
+}
+.developer__photo_Uddin:hover{
+	background: url(../img/md-khalil-uddin-hover.png);
+}
+.developer__photo_Miah:hover{
+	background: url(../img/rubel-miah-hover.png);
+}
+.developer__photo_Mia:hover{
+	background: url(../img/shamim-mia-hover.png);
+}
+.developer__photo_Doe:hover{
+	background: url(../img/jonh-doe-hover.png);
+}
+.developer__name{
+	font-size: 14px;
+ 	font-family: "Montserrat";
+ 	text-transform: uppercase;
+ 	line-height: 1.714;
+}
+.developer__position{
+	font-size: 13px;
+ 	font-family: Roboto Slab;
+ 	line-height: 1.846;
+}
+.social-pack a{
+	display: inline-block;
+}
+.social-pack{
+	display: none;
+	position: absolute;
+	top: 195px;
+	left: 70px;
+}
+.social-pack__icon{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+}
+.social-pack__icon_fb{
+	background: url(../img/social-icon.png) 0% 0%;
+}
+.social-pack__icon_fb:hover{
+	background: url(../img/social-icon.png) 0% 100%;
+}
+.social-pack__icon_tw{
+	background: url(../img/social-icon.png) 33% 0%;
+}
+.social-pack__icon_tw:hover{
+	background: url(../img/social-icon.png) 33% 100%;
+}
+.social-pack__icon_g{
+	background: url(../img/social-icon.png) 66% 0%;
+}
+.social-pack__icon_g:hover{
+	background: url(../img/social-icon.png) 66% 100%;
+}
+.social-pack__icon_ln{
+	background: url(../img/social-icon.png) 100% 0%;
+}
+.social-pack__icon_ln:hover{
+	background: url(../img/social-icon.png) 100% 100%;
+}
+.developer:hover .social-pack{
+	display: block;
 }
