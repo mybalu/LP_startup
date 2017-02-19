@@ -5,15 +5,13 @@ body{
 .bg-1{
 	background: url(../img/bg-1.jpg) 100%;
 }
-/*.bg-2{
-	background: url(../img/bg-2.jpg);
-}*/
 .hello{
 	margin: 0 auto;
 	max-width: 1140px;
 	padding-top: 36px;
 	color: #fff;
-	height: 730px;
+	/*height: 730px;*/
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .header__text-logo{
 	float: left;
@@ -58,11 +56,95 @@ body{
 .welcome__button{
 	display: block;
 	width: 145px;
-	margin: 50px auto 0px;
+	margin: 50px auto 260px;
 	padding: 15px 20px;
 	font-size: 16px;
 	text-transform: uppercase;
 	border: 2px solid #fff;
 	text-decoration: none;
 	color: #fff;
+}
+.advantages{
+	margin: 0 auto;
+	max-width: 1140px;
+	color: #555555;
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.advantages__h1{
+	text-align: center;
+	margin: 100px auto 29px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.advantages__hr{
+	width: 50px;
+	margin-bottom: 28px;
+}
+.advantages__subtitle{
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-size: 16px;
+}
+.here-advantages{
+	text-align: center;
+	margin-top: 70px;
+}
+.here-advantages__image_clean-typography{
+	height: 90px;
+	width: 90px;
+	margin: 0 auto;
+	background: url(../img/clean-typography.png);
+}
+.here-advantages__image_clean-typography:hover{
+	background: url(../img/clean-typography-hover.png);
+}
+.here-advantages__image_Rock-Solid-Code{
+	height: 90px;
+	width: 90px;
+	margin: 0 auto;
+	background: url(../img/rock-solid-code.png);
+}
+.here-advantages__image_Rock-Solid-Code:hover{
+	background: url(../img/rock-solid-code-hover.png);
+}
+.here-advantages__image_Expert-Support{
+	height: 90px;
+	width: 90px;
+	margin: 0 auto;
+	background: url(../img/expert-support.png);	
+}
+.here-advantages__image_Expert-Support:hover{
+	background: url(../img/expert-support-hover.png);	
+}
+.main-advantages{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+	margin-bottom: 98px;
+}
+.here-advantages{
+	max-width: 345px;
+}
+.here-advantages__h3{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 30px auto 20px;
+}
+.here-advantages__text{
+	font-family: 'Roboto Slab';
+	font-size: 14px;
+}
+.bg-2{
+	background: #f8f8f8;
 }
