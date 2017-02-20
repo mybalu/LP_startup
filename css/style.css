@@ -199,28 +199,28 @@ body{
 	height: 250px;
 	margin: 0 auto 20px;
 }
-.developer__photo_Uddin{
+.developer__photo_uddin{
 	background: url(../img/md-khalil-uddin.png);
 }
-.developer__photo_Miah{
+.developer__photo_miah{
 	background: url(../img/rubel-miah.png);
 }
-.developer__photo_Mia{
+.developer__photo_mia{
 	background: url(../img/shamim-mia.png);
 }
-.developer__photo_Doe{
+.developer__photo_doe{
 	background: url(../img/jonh-doe.png);
 }
-.developer__photo_Uddin:hover{
+.developer__photo_uddin:hover{
 	background: url(../img/md-khalil-uddin-hover.png);
 }
-.developer__photo_Miah:hover{
+.developer__photo_miah:hover{
 	background: url(../img/rubel-miah-hover.png);
 }
-.developer__photo_Mia:hover{
+.developer__photo_mia:hover{
 	background: url(../img/shamim-mia-hover.png);
 }
-.developer__photo_Doe:hover{
+.developer__photo_doe:hover{
 	background: url(../img/jonh-doe-hover.png);
 }
 .developer__name{
