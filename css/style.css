@@ -412,3 +412,31 @@ body{
 .here-work-examples__example:last-child{
 	margin-bottom: 100px;
 }
+.call-to-action{
+	background: url(../img/bg_call-to-action.jpg);
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+	border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.call-to-action__title{
+	margin-top: 90px;
+	color: #fff;
+	text-align: center;
+	font-family: Roboto Slab;
+	font-size: 30px;
+	line-height: 44px;
+}
+.call-to-action__link{
+	display: block;
+	width: 145px;
+	margin: 55px auto 85px;
+	padding: 15px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+.call-to-action__link:hover{
+	box-shadow: 0 0 20px #fff;
+}
