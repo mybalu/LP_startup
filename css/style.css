@@ -76,19 +76,19 @@ body{
 .welcome__button:active{
 	box-shadow: 0 0 30px cyan;
 }
-.advantages, .about-us{
+.advantages, .about-us, .work-examples{
 	margin: 0 auto;
 	max-width: 1140px;
 	color: #555555;
 	border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-.advantages__title, .about-us__title{
+.advantages__title, .about-us__title, .work-examples__title{
 	text-align: center;
 	margin: 100px auto 29px;
 	text-transform: uppercase;
 	font-size: 20px;
 }
-.advantages__hr, .about-us__hr{
+.advantages__hr, .about-us__hr, .work-examples__hr{
 	width: 50px;
 	margin-bottom: 28px;
 }
@@ -286,4 +286,129 @@ body{
 }
 .developer:hover .social-pack{
 	display: block;
+}
+.here-work-examples{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+	margin-top: 55px;
+}
+.work-examples__filters{
+	text-align: center;
+	font-family: Roboto Slab;
+	font-size: 16px;
+}
+.work-examples__filters a{
+	color: #555555;
+	padding: 0 15px;
+}
+.work-examples__filters a:hover{
+	text-shadow: 0 0 5px black;
+}
+.here-work-examples__example__details{
+	display: none;
+}
+.here-work-examples__example{
+	margin: 15px 0;
+	width: 360px;
+	height: 320px;
+	position: relative;
+}
+.ex_1{
+	background: url(../img/ex_1.jpg);
+}
+.ex_2{
+	background: url(../img/ex_2.jpg);
+}
+.ex_3{
+	background: url(../img/ex_3.jpg);
+}
+.ex_4{
+	background: url(../img/ex_4.jpg);
+}
+.ex_5{
+	background: url(../img/ex_5.jpg);
+}
+.ex_6{
+	background: url(../img/ex_6.jpg);
+}
+.ex_7{
+	background: url(../img/ex_7.jpg);
+}
+.ex_8{
+	background: url(../img/ex_8.jpg);
+}
+.ex_9{
+	background: url(../img/ex_9.jpg);
+}
+.ex_1:hover{
+	background: url(../img/ex_1_hover.jpg);
+}
+.ex_2:hover{
+	background: url(../img/ex_2_hover.jpg);
+}
+.ex_3:hover{
+	background: url(../img/ex_3_hover.jpg);
+}
+.ex_4:hover{
+	background: url(../img/ex_4_hover.jpg);
+}
+.ex_5:hover{
+	background: url(../img/ex_5_hover.jpg);
+}
+.ex_6:hover{
+	background: url(../img/ex_6_hover.jpg);
+}
+.ex_7:hover{
+	background: url(../img/ex_7_hover.jpg);
+}
+.ex_8:hover{
+	background: url(../img/ex_8_hover.jpg);
+}
+.ex_9:hover{
+	background: url(../img/ex_9_hover.jpg);
+}
+.here-work-examples__example:hover .here-work-examples__example__details{
+	display: block;
+	position: absolute;
+	top: 105px;
+	left: 126px;
+	text-align: center;
+}
+.here-work-examples__example__link{
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 0 auto;
+	background: #fff;
+	color: #d16c5f;
+	font-family: Roboto Slab;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.here-work-examples__example__link:hover{
+	box-shadow: 0 0 20px #fff;
+}
+.here-work-examples__example__subtitle{
+	margin: 17px auto 24px;
+	color: #fff;
+	font-family: Roboto Slab;
+	font-size: 12px;
+}
+.here-work-examples__example__title{
+	color: #fff;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+}
+.here-work-examples__example:last-child{
+	margin-bottom: 100px;
 }
