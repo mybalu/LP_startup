@@ -31,11 +31,15 @@ body{
 	padding: 5px 15px;
 }
 .header__navigation a:last-child{
-	padding-right: 0px;
 	margin-right: 0px;
 }
 .header__navigation a:hover{
 	text-decoration: underline;
+	text-shadow: 0 0 20px #fff;
+}
+.header__navigation a:focus{
+	text-decoration: underline;
+	text-shadow: 0 0 20px #fff;
 }
 .header:after{
 	content: '';
@@ -46,7 +50,7 @@ body{
 	margin-top: 260px;
 	text-align: center;
 }
-.wellcome__h1{
+.wellcome__title{
 	font-size: 48px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -66,13 +70,19 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
+.welcome__button:hover{
+	box-shadow: 0 0 20px #fff;
+}
+.welcome__button:active{
+	box-shadow: 0 0 30px cyan;
+}
 .advantages, .about-us{
 	margin: 0 auto;
 	max-width: 1140px;
 	color: #555555;
 	border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-.advantages__h1, .about-us__h1{
+.advantages__title, .about-us__title{
 	text-align: center;
 	margin: 100px auto 29px;
 	text-transform: uppercase;
@@ -91,33 +101,35 @@ body{
 	text-align: center;
 	margin-top: 70px;
 }
-.here-advantages__image_clean-typography{
+/*Fonts AweSome start*/
+.fa{
+	color: #c0301c;
+	border: 2px solid #dddddd;
+	border-radius: 50%;
 	height: 90px;
 	width: 90px;
-	margin: 0 auto;
-	background: url(../img/clean-typography.png);
+	padding: 10px;
+	text-align: center;
 }
-.here-advantages__image_clean-typography:hover{
-	background: url(../img/clean-typography-hover.png);
+/* Старт. Немного кривая иконка, ровняем*/
+.fa-life-ring:before {
+	  position: relative;
+	  top: 11px;
+	}
+.fa-font:before{
+	position: relative;
+	top: 8px;
 }
-.here-advantages__image_Rock-Solid-Code{
-	height: 90px;
-	width: 90px;
-	margin: 0 auto;
-	background: url(../img/rock-solid-code.png);
+.fa-code:before{
+	position: relative;
+	top:9px;
 }
-.here-advantages__image_Rock-Solid-Code:hover{
-	background: url(../img/rock-solid-code-hover.png);
+/* Конец. Немного кривая иконка, ровняем*/
+.fa:hover{
+	color: #fff;
+	background-color: #c0301c;
 }
-.here-advantages__image_Expert-Support{
-	height: 90px;
-	width: 90px;
-	margin: 0 auto;
-	background: url(../img/expert-support.png);	
-}
-.here-advantages__image_Expert-Support:hover{
-	background: url(../img/expert-support-hover.png);	
-}
+/*Fonts AweSome end*/
 .main-advantages{
 	display: -webkit-box;
 	display: -moz-box;
@@ -137,7 +149,7 @@ body{
 .here-advantages{
 	max-width: 345px;
 }
-.here-advantages__h3{
+.here-advantages__title{
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
