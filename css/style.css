@@ -76,23 +76,26 @@ body{
 .welcome__button:active{
 	box-shadow: 0 0 30px cyan;
 }
-.advantages, .about-us, .work-examples{
+.advantages, .about-us, .work-examples, .recent-posts{
 	margin: 0 auto;
 	max-width: 1140px;
 	color: #555555;
 	border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-.advantages__title, .about-us__title, .work-examples__title{
+.advantages__title, .about-us__title, .work-examples__title, .recent-posts__title{
 	text-align: center;
 	margin: 100px auto 29px;
 	text-transform: uppercase;
 	font-size: 20px;
 }
-.advantages__hr, .about-us__hr, .work-examples__hr{
+.line-separates{
 	width: 50px;
 	margin-bottom: 28px;
+	border: 0;
+	height: 2px;
+	background: #555555;
 }
-.advantages__subtitle, .about-us__subtitle{
+.subtitle{
 	text-align: center;
 	font-family: Roboto Slab;
 	font-size: 16px;
@@ -183,7 +186,6 @@ body{
 	font-family: Roboto Slab;
 	font-size: 14px;
 	line-height: 1.714;
-	margin-top: 70px;
 	max-width: 525px; /*555*/
 }
 .our-team{
@@ -439,4 +441,67 @@ body{
 }
 .call-to-action__link:hover{
 	box-shadow: 0 0 20px #fff;
+}
+/*Стили для max-width: 750px*/
+.here-recent-posts__image{
+	max-width: 750px;
+	padding: 0 10px;
+	margin: 70px auto 20px;
+}
+.here-recent-posts__image img{
+	width: 100%;
+	height: auto;
+}
+.here-recent-post__date{
+	float: left;
+	border: 2px solid #777777;
+	padding: 20px;
+	margin: auto 10px;
+	text-align: center;
+	width: 36px;
+}
+.here-recent-post{
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+.here-recent-post__date span{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #777777;
+	text-align: center;
+}
+.here-recent-post__title{
+	text-transform: uppercase;
+	color: #c0301c;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.here-recent-post__author{
+	font-family: Roboto Slab;
+	font-size: 13px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.here-recent-post__author a{
+	text-decoration: none;
+	color: #c0301c;
+}
+.here-recent-post__author a:hover{
+	text-shadow: 0 0 20px red;
+}
+.here-recent-post{
+	font-family: Roboto Slab;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 10px 15px;
+}
+.here-recent-post__read-more-link{
+	color: #c0301c;
+	text-transform: uppercase;
+	font-family: Roboto Slab;
+	font-weight: 600;
+	font-size: 13px;
+	display: block;
+	text-align: center;
 }
