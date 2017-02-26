@@ -442,11 +442,15 @@ body{
 .call-to-action__link:hover{
 	box-shadow: 0 0 20px #fff;
 }
+/* here-recent-posts */
 /*Стили для max-width: 750px*/
+.here-recent-posts{
+	margin-top: 70px;
+}
 .here-recent-posts__image{
 	max-width: 750px;
 	padding: 0 10px;
-	margin: 70px auto 20px;
+	margin: 0 auto 20px;
 }
 .here-recent-posts__image img{
 	width: 100%;
@@ -504,4 +508,44 @@ body{
 	font-size: 13px;
 	display: block;
 	text-align: center;
+}
+.here-recent-post__read-more-link:hover, .here-recent-post__read-more-link:active{
+	text-shadow: 0 0 20px #c0301c;
+}
+/*Стили для max-width: min-width: 750px;*/
+@media (min-width: 750px){
+	.here-recent-posts__image{
+		float: left;
+		margin-right: 20px;
+	}
+	.here-recent-post__read-more-link{
+		text-align: left;
+	}
+	.here-recent-post__date{
+		margin-left: 0px;
+	}
+	.here-recent-posts:after{
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+/* Стили для min-width: 970px*/
+@media (min-width: 970px){
+	.here-recent-posts__image{
+		width: 460px;
+	}
+	.here-recent-post__title, .here-recent-post__author{
+		text-align: left;
+	}
+	.here-recent-post__date{
+		margin-right: 30px;
+	}
+	.here-recent-post__title{
+		font-family: Montserrat;
+		padding-bottom: 10px;
+	}
+	.here-recent-post__author{
+		padding-bottom: 10px;
+	}
 }
