@@ -33,7 +33,7 @@ body{
 .header__navigation a:last-child{
 	margin-right: 0px;
 }
-.header__navigation a:hover{
+.header__navigation a:hover, .header__navigation a:focus{
 	text-decoration: underline;
 	text-shadow: 0 0 20px #fff;
 }
@@ -70,7 +70,7 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
-.welcome__button:hover{
+.welcome__button:hover, .welcome__button:focus{
 	box-shadow: 0 0 20px #fff;
 }
 .welcome__button:active{
@@ -130,7 +130,7 @@ body{
 	top:9px;
 }
 /* Конец. Немного кривая иконка, ровняем*/
-.here-advantages .fa:hover{
+.here-advantages .fa:hover, .here-advantages .fa:focus{
 	color: #fff;
 	background-color: #c0301c;
 }
@@ -227,16 +227,16 @@ body{
 .developer__photo_doe{
 	background: url(../img/jonh-doe.png);
 }
-.developer__photo_uddin:hover{
+.developer__photo_uddin:hover, .developer__photo_uddin:focus{
 	background: url(../img/md-khalil-uddin-hover.png);
 }
-.developer__photo_miah:hover{
+.developer__photo_miah:hover, .developer__photo_miah:focus{
 	background: url(../img/rubel-miah-hover.png);
 }
-.developer__photo_mia:hover{
+.developer__photo_mia:hover, .developer__photo_mia:focus{
 	background: url(../img/shamim-mia-hover.png);
 }
-.developer__photo_doe:hover{
+.developer__photo_doe:hover, .developer__photo_doe:focus{
 	background: url(../img/jonh-doe-hover.png);
 }
 .developer__name{
@@ -267,28 +267,28 @@ body{
 .social-pack__icon_fb{
 	background: url(../img/social-icon.png) 0% 0%;
 }
-.social-pack__icon_fb:hover{
+.social-pack__icon_fb:hover, .social-pack__icon_fb:focus{
 	background: url(../img/social-icon.png) 0% 100%;
 }
 .social-pack__icon_tw{
 	background: url(../img/social-icon.png) 33% 0%;
 }
-.social-pack__icon_tw:hover{
+.social-pack__icon_tw:hover, .social-pack__icon_tw:focus{
 	background: url(../img/social-icon.png) 33% 100%;
 }
 .social-pack__icon_g{
 	background: url(../img/social-icon.png) 66% 0%;
 }
-.social-pack__icon_g:hover{
+.social-pack__icon_g:hover, .social-pack__icon_g:focus{
 	background: url(../img/social-icon.png) 66% 100%;
 }
 .social-pack__icon_ln{
 	background: url(../img/social-icon.png) 100% 0%;
 }
-.social-pack__icon_ln:hover{
+.social-pack__icon_ln:hover, .social-pack__icon_ln:focus{
 	background: url(../img/social-icon.png) 100% 100%;
 }
-.developer:hover .social-pack{
+.developer:hover .social-pack, .developer:focus .social-pack{
 	display: block;
 }
 .here-work-examples{
@@ -316,7 +316,7 @@ body{
 	color: #555555;
 	padding: 0 15px;
 }
-.work-examples__filters a:hover{
+.work-examples__filters a:hover, .work-examples__filters a:focus{
 	text-shadow: 0 0 5px black;
 }
 .here-work-examples__example__details{
@@ -355,34 +355,34 @@ body{
 .ex_9{
 	background: url(../img/ex_9.jpg);
 }
-.ex_1:hover{
+.ex_1:hover, .ex_1:focus{
 	background: url(../img/ex_1_hover.jpg);
 }
-.ex_2:hover{
+.ex_2:hover, .ex_2:focus{
 	background: url(../img/ex_2_hover.jpg);
 }
-.ex_3:hover{
+.ex_3:hover, .ex_3:focus{
 	background: url(../img/ex_3_hover.jpg);
 }
-.ex_4:hover{
+.ex_4:hover, .ex_4:focus{
 	background: url(../img/ex_4_hover.jpg);
 }
-.ex_5:hover{
+.ex_5:hover, .ex_5:focus{
 	background: url(../img/ex_5_hover.jpg);
 }
-.ex_6:hover{
+.ex_6:hover, .ex_6:focus{
 	background: url(../img/ex_6_hover.jpg);
 }
-.ex_7:hover{
+.ex_7:hover, .ex_7:focus{
 	background: url(../img/ex_7_hover.jpg);
 }
-.ex_8:hover{
+.ex_8:hover, .ex_8:focus{
 	background: url(../img/ex_8_hover.jpg);
 }
-.ex_9:hover{
+.ex_9:hover, .ex_9:focus{
 	background: url(../img/ex_9_hover.jpg);
 }
-.here-work-examples__example:hover .here-work-examples__example__details{
+.here-work-examples__example:hover .here-work-examples__example__details, .here-work-examples__example:focus .here-work-examples__example__details{
 	display: block;
 	position: absolute;
 	top: 105px;
@@ -399,7 +399,7 @@ body{
 	font-size: 14px;
 	text-transform: uppercase;
 }
-.here-work-examples__example__link:hover{
+.here-work-examples__example__link:hover, .here-work-examples__example__link:focus{
 	box-shadow: 0 0 20px #fff;
 }
 .here-work-examples__example__subtitle{
@@ -441,7 +441,7 @@ body{
 	color: #fff;
 	text-align: center;
 }
-.call-to-action__link:hover{
+.call-to-action__link:hover, .call-to-action__link:focus{
 	box-shadow: 0 0 20px #fff;
 }
 /* here-recent-posts */
@@ -493,7 +493,7 @@ body{
 	text-decoration: none;
 	color: #c0301c;
 }
-.here-recent-post__author a:hover{
+.here-recent-post__author a:hover, .here-recent-post__author a:focus{
 	text-shadow: 0 0 20px red;
 }
 .here-recent-post{
@@ -511,7 +511,7 @@ body{
 	display: block;
 	text-align: center;
 }
-.here-recent-post__read-more-link:hover, .here-recent-post__read-more-link:active{
+.here-recent-post__read-more-link:hover, .here-recent-post__read-more-link:focus, .here-recent-post__read-more-link:active{
 	text-shadow: 0 0 20px #c0301c;
 }
 /*Стили для max-width: min-width: 750px;*/
@@ -683,7 +683,7 @@ body{
 	text-transform: none;
 }
 .form-submit {
-	max-width: 33%;
+	max-width: 50%;
 }
 .contacts__form__text{
 	text-align: center;
