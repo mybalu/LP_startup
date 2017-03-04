@@ -573,3 +573,48 @@ body{
 .our-clients-logo__container{
 	margin-bottom: 20px; /*Чтобы было расстояние, когда лого в два и более ряда*/
 }
+/* Аккордион секции our-clients */
+.our-clients-quotes{
+	text-align: center;
+}
+.our-clients-quotes__quote__input{
+	display: none;
+}
+.our-clients-quotes__switch{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-color: #dddddd;
+	border: 1px solid gray;
+	border-radius: 50%;
+	margin: 0 5px 100px;
+}
+.our-clients-quotes__quote__text{
+	display: none;
+}
+.our-clients-quotes__quote__input:checked + .our-clients-quotes__quote__text{
+	display: block;
+}
+.our-clients-quotes__switch:active{
+	background-color: red;
+}
+.our-clients-quotes__quote__text{
+	font-family: Roboto Slab;
+	font-size: 18px;
+	line-height: 30px;
+	color: #555555;
+}
+.our-clients-quotes__quote__here-quote{
+	font-style: italic;
+}
+.our-clients-quotes__quote__author{
+	font-size: 20px;
+	margin: 45px auto;
+}
+/*Для тех, кто больше 970px*/
+@media (min-width: 970px){
+	.our-clients{
+		max-width: 900px;
+		margin: 0 auto;
+	}
+}
