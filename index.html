@@ -285,38 +285,60 @@
 			<p class="contacts__title">Get in touch</p>
 			<hr class="line-separates">
 			<p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-			<section class="here-contacts">
-				<div class="here-contacts__adress">
-					<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-					<p class="here-contacts__title">Address</p>
-					<p class="here-contacts__text">312, 7th Ave, New York
-					<br>NY 101200, United States of America
- 					</p>
-				</div>
-				<div class="here-contacts__phone">
-					<i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
-					<p class="here-contacts__title">Hotline (24x7)</p>
-					<p class="here-contacts__text">+65 0052 300, +65 88251 210
-					<br>+88 01723 511 340
-					</p>
-				</div>
-				<div class="here-contacts__email">
-					<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
-					<p class="here-contacts__title">E-mail</p>
-					<p class="here-contacts__text">shapedtheme@gmail.com
-					<br>khalilkode@gmail.com
-					</p>
-				</div>
-			</section>
-			<form action="#" class="contacts__form" method="post">
-				<input type="text" name="lead_name" placeholder="Your Name" class="form-input">
-				<input type="text" name="lead_email" placeholder="Your E-mail" class="form-input">
-				<input type="text" name="lead_subject" placeholder="Your Subject" class="form-input">
-				<input type="text" name="lead_company" placeholder="Company Name" class="form-input">
-				<input type="text-area" name="lead_message" placeholder="WRITE YOUR MESSAGE" class="form-input-area">
-				<input type="submit" value="send message" class="form-input form-submit">
-				<p class="contacts__form__text">We’ll contact you as as possible. We don’t reply on Monday.</p>
-			</form>
+			<div class="contacts__wrapper">
+				<section class="here-contacts">
+					<div class="here-contacts__adress">
+						<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+						<p class="here-contacts__title">Address</p>
+						<p class="here-contacts__text">312, 7th Ave, New York
+						<br>NY 101200, United States of America
+	 					</p>
+					</div>
+					<div class="here-contacts__phone">
+						<i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+						<p class="here-contacts__title">Hotline (24x7)</p>
+						<p class="here-contacts__text">+65 0052 300, +65 88251 210
+						<br>+88 01723 511 340
+						</p>
+					</div>
+					<div class="here-contacts__email">
+						<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+						<p class="here-contacts__title">E-mail</p>
+						<p class="here-contacts__text">shapedtheme@gmail.com
+						<br>khalilkode@gmail.com
+						</p>
+					</div>
+				</section>
+				<form action="http://mybalu.ru/subscribe/process/?rid[0]=1489182223.6507894401&no_subscr=1&" class="contacts__form" method="post" data-hash="Zm9ybWlkPTE2MCZ1bmFtZT1mYWxzZSZtaWRkbGVuYW1lPWZhbHNlJmxhc3RuYW1lPWZhbHNlJmVtYWlsPXRydWUmcGhvbmU9ZmFsc2UmY2l0eT1mYWxzZQ==">
+					<input type="text" name="lead_name" placeholder="Your Name" class="form-input">
+					<input type="email" name="lead_email" placeholder="Your E-mail" class="form-input">
+					<!--типа фича-->
+					<select name="lf_char[4]" class="form-input">
+						<optgroup label="Заказать">
+							<option value="no-subject" disabled selected hidden>Выберите тему письма*</option>
+							<option value="site">Сайт многостраничник</option>
+							<option value="shop">Интернет-магазин</option>
+							<option value="LP">LandingPage</option>
+							<option value="vcard">Сайт-Визитку</option>
+							<option value="e-letter">Email письмо</option>
+						</optgroup>
+						<optgroup label="Оставить отзыв">
+							<option value="feedback">Просто отзыв</option>
+							<option value="feedback__good">Хороший</option>
+							<option value="feedback_excellent">Отличный</option>
+						</optgroup>
+						<optgroup label="Другое">
+							<option value="other">Другое</option>
+						</optgroup>
+					</select>
+					<!--типа фича конец-->
+					<!--<input type="text" name="lead_subject" placeholder="Your Subject" class="form-input">-->
+					<input type="text" name="lf_char[5]" placeholder="Company Name" class="form-input">
+					<textarea name="lf_text[6]" cols="30" rows="10" class="form-input-area">WRITE YOUR MESSAGE</textarea>
+					<input type="submit" value="send message" class="form-input form-submit">
+					<p class="contacts__form__text">We’ll contact you as as possible. We don’t reply on Monday.</p>
+				</form>
+			</div>
 		</section>
 		<footer class="footer">
 			<div class="social">
