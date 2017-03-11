@@ -682,18 +682,18 @@ body{
 	outline: none;
 }
 /*Для IE*/
-/*.contacts__form select::-ms-expand{
+.contacts__form select::-ms-expand{
 	display: none;
 }
 /* For Webkit based browsers Google Chrome, Apple Safari and latest Gecko browsers */
-/*.contacts__form select{
+.contacts__form select{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 80.5%;
     text-align: center;
     text-align-last: center;
-}*/
+}
 .contacts__form input:focus{
 	border: 1px solid #c0301c;
 }
