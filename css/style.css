@@ -100,7 +100,7 @@ body{
 }
 .subtitle{
 	text-align: center;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 16px;
 	color: #555555;
 }
@@ -163,7 +163,7 @@ body{
 	margin: 30px auto 20px;
 }
 .here-advantages__text{
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 14px;
 }
 .bg-2{
@@ -187,7 +187,7 @@ body{
 }
 .about-us__article{
 	display: flex;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 14px;
 	line-height: 1.714;
 	max-width: 525px; /*555*/
@@ -230,7 +230,7 @@ body{
 }
 .developer__position{
 	font-size: 13px;
- 	font-family: Roboto Slab;
+ 	font-family: 'Roboto Slab';
  	line-height: 1.846;
 }
 .social-pack a{
@@ -298,7 +298,7 @@ body{
 }
 .work-examples__filters{
 	text-align: center;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 16px;
 }
 .work-examples__filters a{
@@ -337,7 +337,7 @@ body{
 	margin: 0 auto;
 	background: #fff;
 	color: #d16c5f;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -348,7 +348,7 @@ body{
 .here-work-examples__example__subtitle{
 	margin: 17px auto 24px;
 	color: #fff;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 12px;
 }
 .here-work-examples__example__title{
@@ -368,7 +368,7 @@ body{
 	margin-top: 90px;
 	color: #fff;
 	text-align: center;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 30px;
 	line-height: 44px;
 }
@@ -426,7 +426,7 @@ body{
 	margin-bottom: 5px;
 }
 .here-recent-post__author{
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 13px;
 	font-style: italic;
 	text-align: center;
@@ -440,7 +440,7 @@ body{
 	text-shadow: 0 0 20px red;
 }
 .here-recent-post{
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0 10px 15px;
@@ -448,7 +448,7 @@ body{
 .here-recent-post__read-more-link{
 	color: #c0301c;
 	text-transform: uppercase;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-weight: 600;
 	font-size: 13px;
 	display: block;
@@ -544,7 +544,7 @@ body{
 	background-color: red;
 }
 .our-clients-quotes__quote__text{
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 18px;
 	line-height: 30px;
 	color: #555555;
@@ -595,7 +595,7 @@ body{
 	color: #555555;
 }
 .here-contacts__text{
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 12px;
 	line-height: 20px;
 	color: #555555;
@@ -610,7 +610,7 @@ body{
 .contacts__form{
 	display: block;
 	margin: 0 auto 100px;
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 12px;
 	color: #555555;
 }
@@ -632,7 +632,6 @@ body{
 .contacts__form select{
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
     width: 80.5%;
     text-align: center;
     text-align-last: center;
@@ -700,7 +699,7 @@ body{
 	border-radius: 50%;
 }
 .footer__copyright{
-	font-family: Roboto Slab;
+	font-family: 'Roboto Slab';
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #fff;
