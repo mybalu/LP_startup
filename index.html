@@ -14,7 +14,7 @@
 		<div class="bg-1">
 			<section class="hello">
 				<header class="header">
-					<p class="header__text-logo" id="text-logo">Startup</p>
+					<h2 class="header__text-logo" id="text-logo">Startup</h2>
 					<nav class="header__navigation">
 						<a href="#text-logo">Home</a>
 						<a href="#advantages">Services</a>
@@ -33,7 +33,7 @@
 			</section>
 		</div>
 		<section class="advantages">
-			<p class="advantages__title" id="advantages">Services</p>
+			<h2 class="advantages__title" id="advantages">Services</h2>
 			<hr class="line-separates">
 			<p class="subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
 			<section class="main-advantages">
@@ -56,7 +56,7 @@
 		</section>
 		<div class="bg-2">
 			<section class="about-us">
-				<p class="about-us__title" id="about">About us</p>
+				<h2 class="about-us__title" id="about">About us</h2>
 				<hr class="line-separates">
 				<p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
 				<section class="about-us__articles">
@@ -136,7 +136,7 @@
 			</section>
 		</div>
 		<section class="work-examples">
-			<p class="work-examples__title" id="works">Latest Works</p>
+			<h2 class="work-examples__title" id="works">Latest Works</h2>
 			<hr class="line-separates">
 			<div class="work-examples__filters">
 			<a href="#works">All</a>
@@ -226,11 +226,11 @@
 			<a href="#contact_us" class="call-to-action__link">Get in Touch</a>
 		</section>
 		<section class="recent-posts">
-			<p class="recent-posts__title" id="blog">Recent blog posts</p>
+			<h2 class="recent-posts__title" id="blog">Recent blog posts</h2>
 			<hr class="line-separates">
 			<p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
 			<section class="here-recent-posts">
-				<div class="here-recent-posts__image"><img src="./img/post-image-1.jpg"></div>
+				<div class="here-recent-posts__image"><img src="./img/post-image-1.jpg" alt="Запись блога 1"></div>
 				<section class="here-recent-post">
 					<div class="here-recent-post__date"><span>18 Oct</span></div>
 					<p class="here-recent-post__title">Startup ideas needs to be funded</p>
@@ -243,7 +243,7 @@
 			</section>
 			<hr class="line-separates">
 			<section class="here-recent-posts">
-				<div class="here-recent-posts__image"><img src="./img/post-image-2.jpg"></div>
+				<div class="here-recent-posts__image"><img src="./img/post-image-2.jpg" alt="Запись блога 2"></div>
 				<section class="here-recent-post">
 					<div class="here-recent-post__date"><span>18 Oct</span></div>
 					<p class="here-recent-post__title">Startup ideas needs to be funded</p>
@@ -295,7 +295,7 @@
 			</section>
 		</div>
 		<section class="contacts" id="contact_us">
-			<p class="contacts__title">Get in touch</p>
+			<h2 class="contacts__title">Get in touch</h2>
 			<hr class="line-separates">
 			<p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
 			<div class="contacts__wrapper">
@@ -322,9 +322,10 @@
 						</p>
 					</div>
 				</section>
-				<form action="http://mybalu.ru/subscribe/process/?rid[0]=1489182223.6507894401&no_subscr=1&" class="contacts__form" method="post" data-hash="Zm9ybWlkPTE2MCZ1bmFtZT1mYWxzZSZtaWRkbGVuYW1lPWZhbHNlJmxhc3RuYW1lPWZhbHNlJmVtYWlsPXRydWUmcGhvbmU9ZmFsc2UmY2l0eT1mYWxzZQ==">
+				<form action="http://mybalu.ru/subscribe/process/?no_subscr=1&" class="contacts__form" method="post" data-hash="Zm9ybWlkPTE2MCZ1bmFtZT1mYWxzZSZtaWRkbGVuYW1lPWZhbHNlJmxhc3RuYW1lPWZhbHNlJmVtYWlsPXRydWUmcGhvbmU9ZmFsc2UmY2l0eT1mYWxzZQ==">
 					<input type="text" name="lead_name" placeholder="Your Name" class="form-input">
 					<input type="email" name="lead_email" placeholder="Your E-mail" class="form-input">
+					<input type="text" name="rid[0]" value="1489182223.6507894401" hidden>
 					<!--типа фича-->
 					<select name="lf_char[4]" class="form-input">
 						<optgroup label="Заказать">
