@@ -4,10 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>StartUp</title>
-	<link rel="stylesheet" type="text/css" href="./css/reset.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" media="all" />
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-	<script src="https://use.fontawesome.com/89e8b932eb.js"></script>
 </head>
 <body>
 	<div class="site-wrapper">
@@ -362,5 +358,23 @@
 			<p class="footer__copyright">© 2015 Startup, Designed by ShapedTheme</p>
 		</footer>
 	</div>
+	<script>
+		var link = document.createElement('link');
+		link.setAttribute('href', './css/reset.css');
+		link.setAttribute('rel', 'stylesheet');
+		document.head.appendChild(link);
+		var link = document.createElement('link');
+		link.setAttribute('href', './css/style.css');
+		link.setAttribute('rel', 'stylesheet');
+		document.head.appendChild(link);
+		var script = document.createElement('script');
+		script.setAttribute('src', 'https://use.fontawesome.com/89e8b932eb.js');
+		document.head.appendChild(script);
+		var link = document.createElement('link');
+		link.setAttribute('href', 'img/favicon.ico');
+		link.setAttribute('rel', 'icon');
+		link.setAttribute('type', 'image/x-icon');
+		document.head.appendChild(link);
+	</script>
 </body>
 </html>
