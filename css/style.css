@@ -214,30 +214,11 @@ body{
 	width: 263px;
 	height: 250px;
 	margin: 0 auto 20px;
+	background: #555555;
 }
-.developer__photo_uddin{
-	background: url(../img/md-khalil-uddin.png);
-}
-.developer__photo_miah{
-	background: url(../img/rubel-miah.png);
-}
-.developer__photo_mia{
-	background: url(../img/shamim-mia.png);
-}
-.developer__photo_doe{
-	background: url(../img/jonh-doe.png);
-}
-.developer__photo_uddin:hover, .developer__photo_uddin:focus{
-	background: url(../img/md-khalil-uddin-hover.png);
-}
-.developer__photo_miah:hover, .developer__photo_miah:focus{
-	background: url(../img/rubel-miah-hover.png);
-}
-.developer__photo_mia:hover, .developer__photo_mia:focus{
-	background: url(../img/shamim-mia-hover.png);
-}
-.developer__photo_doe:hover, .developer__photo_doe:focus{
-	background: url(../img/jonh-doe-hover.png);
+.developer__photo:hover .developer__photo_here,
+.developer__photo:focus .developer__photo_here{
+	opacity: .5;
 }
 .developer__name{
 	font-size: 14px;
