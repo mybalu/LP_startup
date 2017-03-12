@@ -19,7 +19,8 @@ body{
 	float: left;
 	font-size: 24px;
 	font-weight: bold;
-	padding: 0 0 0 7px;
+	padding: 45px 0 0 7px;
+	margin-top: -45px;
 }
 .header__navigation{
 	float: right;
@@ -84,7 +85,8 @@ body{
 }
 .advantages__title, .about-us__title, .work-examples__title, .recent-posts__title, .contacts__title{
 	text-align: center;
-	margin: 100px auto 29px;
+	padding-top: 100px;
+	margin: 1px auto 29px;
 	text-transform: uppercase;
 	font-size: 20px;
 	color: #555555;
