@@ -248,30 +248,36 @@ body{
 .social-pack__icon_fb{
 	background: url(../img/social-icon.png) 0% 0%;
 }
-.social-pack__icon_fb:hover, .social-pack__icon_fb:focus{
+.social-pack__icon_fb:hover,
+.social-pack__icon_fb:focus{
 	background: url(../img/social-icon.png) 0% 100%;
 }
 .social-pack__icon_tw{
 	background: url(../img/social-icon.png) 33% 0%;
 }
-.social-pack__icon_tw:hover, .social-pack__icon_tw:focus{
+.social-pack__icon_tw:hover,
+.social-pack__icon_tw:focus{
 	background: url(../img/social-icon.png) 33% 100%;
 }
 .social-pack__icon_g{
 	background: url(../img/social-icon.png) 66% 0%;
 }
-.social-pack__icon_g:hover, .social-pack__icon_g:focus{
+.social-pack__icon_g:hover,
+.social-pack__icon_g:focus{
 	background: url(../img/social-icon.png) 66% 100%;
 }
 .social-pack__icon_ln{
 	background: url(../img/social-icon.png) 100% 0%;
 }
-.social-pack__icon_ln:hover, .social-pack__icon_ln:focus{
+.social-pack__icon_ln:hover,
+.social-pack__icon_ln:focus{
 	background: url(../img/social-icon.png) 100% 100%;
 }
-.developer:hover .social-pack, .developer:focus .social-pack{
+.developer:hover .social-pack,
+.developer:focus .social-pack{
 	display: block;
 }
+/* here-work-examples Секция примеры работ*/
 .here-work-examples{
 	display: -webkit-box;
 	display: -moz-box;
@@ -297,7 +303,8 @@ body{
 	color: #555555;
 	padding: 0 15px;
 }
-.work-examples__filters a:hover, .work-examples__filters a:focus{
+.work-examples__filters a:hover,
+.work-examples__filters a:focus{
 	text-shadow: 0 0 5px black;
 }
 .here-work-examples__example__details{
@@ -308,62 +315,14 @@ body{
 	width: 360px;
 	height: 320px;
 	position: relative;
+	background: #c0301c;
 }
-.ex_1{
-	background: url(../img/ex_1.jpg);
+.here-work-examples__example:hover .here-work-examples__example__here,
+.here-work-examples__example:focus .here-work-examples__example__here{
+	opacity: .3;
 }
-.ex_2{
-	background: url(../img/ex_2.jpg);
-}
-.ex_3{
-	background: url(../img/ex_3.jpg);
-}
-.ex_4{
-	background: url(../img/ex_4.jpg);
-}
-.ex_5{
-	background: url(../img/ex_5.jpg);
-}
-.ex_6{
-	background: url(../img/ex_6.jpg);
-}
-.ex_7{
-	background: url(../img/ex_7.jpg);
-}
-.ex_8{
-	background: url(../img/ex_8.jpg);
-}
-.ex_9{
-	background: url(../img/ex_9.jpg);
-}
-.ex_1:hover, .ex_1:focus{
-	background: url(../img/ex_1_hover.jpg);
-}
-.ex_2:hover, .ex_2:focus{
-	background: url(../img/ex_2_hover.jpg);
-}
-.ex_3:hover, .ex_3:focus{
-	background: url(../img/ex_3_hover.jpg);
-}
-.ex_4:hover, .ex_4:focus{
-	background: url(../img/ex_4_hover.jpg);
-}
-.ex_5:hover, .ex_5:focus{
-	background: url(../img/ex_5_hover.jpg);
-}
-.ex_6:hover, .ex_6:focus{
-	background: url(../img/ex_6_hover.jpg);
-}
-.ex_7:hover, .ex_7:focus{
-	background: url(../img/ex_7_hover.jpg);
-}
-.ex_8:hover, .ex_8:focus{
-	background: url(../img/ex_8_hover.jpg);
-}
-.ex_9:hover, .ex_9:focus{
-	background: url(../img/ex_9_hover.jpg);
-}
-.here-work-examples__example:hover .here-work-examples__example__details, .here-work-examples__example:focus .here-work-examples__example__details{
+.here-work-examples__example:hover .here-work-examples__example__details,
+.here-work-examples__example:focus .here-work-examples__example__details{
 	display: block;
 	position: absolute;
 	top: 105px;
@@ -380,7 +339,8 @@ body{
 	font-size: 14px;
 	text-transform: uppercase;
 }
-.here-work-examples__example__link:hover, .here-work-examples__example__link:focus{
+.here-work-examples__example__link:hover,
+.here-work-examples__example__link:focus{
 	box-shadow: 0 0 20px #fff;
 }
 .here-work-examples__example__subtitle{
